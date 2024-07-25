@@ -10,6 +10,15 @@ from .._version import VERSION
 from .config_utils import get_autogen_config_from_msticpyconfig
 
 
+def add_two_numbers(a: int, b: int) -> int:
+    """
+    Add two numbers together.
+
+    Usage: add_two_numbers(a, b)
+    """
+    return a + b
+
+
 def find_rst_files():
     """Find all .rst files in the docs/source directory of 'msticpy' package."""
     # Get the path to the docs/source directory of the package

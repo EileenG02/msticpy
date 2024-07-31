@@ -7,7 +7,7 @@ from autogen import ConversableAgent, register_function
 from IPython.core.magic import Magics, cell_magic, magics_class
 
 from msticpy.aiagents.config_utils import get_autogen_config_from_msticpyconfig
-from msticpy.aiagents.rag_agent import add_two_numbers
+from msticpy.aiagents.rag_agents import add_two_numbers
 
 
 @magics_class
